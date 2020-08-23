@@ -5,10 +5,10 @@ destination: jekyllbuild
 url: #place url
 baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
-paginate: 8
-paginate_path: /page/:num/
-infinite_scroll: false #change to false if you want to use pagination
 gems: [jekyll-paginate]
+paginate: 6
+infinite_scroll: false #change to false if you want to use pagination
+paginate_path: /page/:num/
 tag_dir: /tag
 category_dir: /category
 media_folder: /media/compressed
