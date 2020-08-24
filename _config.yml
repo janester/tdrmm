@@ -1,7 +1,6 @@
 full_rebuild: true
 name: That Don't Romance Me Much
 description: Romance Book Blog
-destination: jekyllbuild
 url: https://thatdontromancememuch/
 baseurl: #place folder name if site is served in subfolder
 gems: [jekyll-paginate]

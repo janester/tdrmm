@@ -4,7 +4,7 @@
 /bower_components/
 /node_modules/
 /.brackets.json
-/jekyllbuild/
+/_site/
 /documentation/node_modules/
 /documentation/jekyllbuild/
 .jekyll-cache/*
