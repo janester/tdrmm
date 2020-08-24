@@ -42,17 +42,9 @@
                 <li class="sicon">
                     <a href='#search'><i class='fa fa-search'></i></a>
                 </li>
-                {% if site.tumblr %}
+                {% if site.instagram %}
                 <li class="social">
-                    <a href="{{ site.tumblr }}" class="tumblr"><i class="fa fa-tumblr"></i></a>
-                </li>
-                {% endif %} {% if site.pinterest %}
-                <li class="social">
-                    <a href="{{ site.pinterest }}" class="pinterest"><i class="fa fa-pinterest"></i></a>
-                </li>
-                {% endif %} {% if site.instagram %}
-                <li class="social">
-                    <a href="{{ site.instagram }}" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="{{ site.instagram }}" class="instagram"><i class="fab fa-instagram"></i></a>
                 </li>
                 {% endif %} {% if site.twitter %}
                 <li class="social">
@@ -73,6 +65,10 @@
                 {% endif %} {% if site.soundcloud %}
                 <li class="social">
                     <a href="{{ site.soundcloud }}" class="soundcloud"><i class="fa fa-soundcloud"></i></a>
+                </li>
+                {% endif %} {% if site.goodreads %}
+                <li class="social">
+                    <a href="{{ site.goodreads }}" class="goodreads"><i class="fab fa-goodreads"></i></a>
                 </li>
                 {% endif %}
             </ul>
