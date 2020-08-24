@@ -1,7 +1,7 @@
 ---
 featimg: kiss_thief.png
 title: The Kiss Thief
-tags: [gallery, image]
+tags: [read-this-not-that, new-adult, lj-shen, kindle-unlimited]
 category: [review]
 layout: book-review
 rating:
