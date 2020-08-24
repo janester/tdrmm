@@ -9,4 +9,5 @@ rating:
   writing: ★☆☆☆☆⁠
   plot: ★☆☆☆☆⁠
   special_sauce: ★☆☆☆☆⁠
+  total: ★☆☆☆☆⁠
 ---

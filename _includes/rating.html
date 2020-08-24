@@ -1,17 +1,20 @@
-<h3>Rating:</h3>
-<table>
-  <thead>
+<div id="rating">
+  <table>
+    <thead>
+      <tr>
+        <th>Characters</th>
+        <th>Plot</th>
+        <th>Writing</th>
+        <th>✨Special Sauce✨</th>
+        <th>Total</th>
+      </tr>
+    </thead>
     <tr>
-      <th>Characters</th>
-      <th>Plot</th>
-      <th>Writing</th>
-      <th>✨Special Sauce✨</th>
+      <td>{{page.rating.characters}}</td>
+      <td>{{page.rating.plot}}</td>
+      <td>{{page.rating.writing}}</td>
+      <td>{{page.rating.special_sauce}}</td>
+      <td>{{page.rating.total}}</td>
     </tr>
-  </thead>
-  <tr>
-    <td>{{page.rating.characters}}</td>
-    <td>{{page.rating.plot}}</td>
-    <td>{{page.rating.writing}}</td>
-    <td>{{page.rating.special_sauce}}</td>
-  </tr>
-</table>
+  </table>
+</div>

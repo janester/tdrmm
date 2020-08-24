@@ -15,3 +15,12 @@
 .cursive-font {
   font-family: 'Dancing Script', cursive;
 }
+
+#rating {
+  border: 1px solid black;
+}
+
+#rating th,td{
+  text-align: center;
+  border: 1px solid black;
+}
