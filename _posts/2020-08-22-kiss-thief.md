@@ -5,7 +5,7 @@ tags: [read-this-not-that, new-adult, lj-shen, kindle-unlimited]
 category: [review]
 layout: book-review
 rating:
-  ⁠characters: ★☆☆☆☆⁠
+  characters: ★☆☆☆☆⁠
   plot: ★☆☆☆☆⁠
   writing: ★☆☆☆☆⁠
   special_sauce: ☆☆☆☆☆⁠
