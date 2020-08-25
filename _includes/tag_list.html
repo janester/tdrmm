@@ -6,7 +6,7 @@
         {% endfor %}
     {% else %}
         {% for tag in tag_list %}
-            <li><a href="{{ site.tag_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ tag[0] }}">{{ tag[0] }}</a></li>
+            <li><a href="{{ site.tag_dir | prepend: site.baseurl | replace: '//', '/' }}/{{ tag[0] }}">{{ tag[0] }}</a> ({{tag[1].size}})</li>
         {% endfor %}
     {% endif %}
     {% assign tag_list = nil %}
