@@ -8,6 +8,18 @@
   background-position: center;
 }
 
+.material-sidebar #heading .bold-font {
+  font-size: 70%;
+}
+
+.material-sidebar #heading .cursive-font {
+  font-size: 110%;
+}
+
+.index .head #heading .cursive-font {
+  font-size: 150%;
+}
+
 .bold-font {
   font-family: "Libre Franklin";
 }
