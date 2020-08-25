@@ -8,6 +8,8 @@ paginate: 6
 infinite_scroll: false #change to false if you want to use pagination
 paginate_path: /page/:num/
 tag_dir: /tag
+tag_title_prefix: "#"
+tag_title_suffix: ""
 category_dir: /category
 category_title_prefix: ""
 category_meta_description_prefix: ""
