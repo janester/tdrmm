@@ -17,6 +17,7 @@ media_folder: /media/compressed
 author_default_avatar: /profile-pic.jpg
 instagram: "https://www.instagram.com/thatdontromancememuch/"
 goodreads: "https://www.goodreads.com/user/show/117569255-that-don-t-romance-me-much"
+contact_email: "mailto:thatdontromancememuch@gmail.com"
 encoding: utf-8
 defaults:
   -

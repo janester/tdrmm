@@ -70,6 +70,10 @@
                 <li class="social">
                     <a href="{{ site.goodreads }}" class="goodreads"><i class="fab fa-goodreads"></i></a>
                 </li>
+                {% endif %} {% if site.contact_email %}
+                <li class="social">
+                    <a href="{{ site.contact_email }}" class="email"><i class="far fa-envelope"></i></a>
+                </li>
                 {% endif %}
             </ul>
         </nav>
