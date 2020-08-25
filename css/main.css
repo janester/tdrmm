@@ -1545,7 +1545,7 @@ article ol {
   }
   .material-sidebar .sidebar-toggle:hover {
     cursor: pointer;
-    background: #ff1c6c;
+    background: #f4d62a;
   }
   .material-sidebar .sidebar-toggle i {
     transition: 1s all ease;
