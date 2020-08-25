@@ -24,8 +24,8 @@ jobs:
       - uses: jeffreytse/jekyll-deploy-action@v0.1.1
         with:
           provider: 'github'
-          token: ${{ secrets.GH_PAGES_TOKEN }} # It's your Personal Access Token(PAT)
-          branch: 'gh-pages'         # Default is gh-pages for github provider
-          jekyll_src: './'           # Default is root directory
-          jekyll_cfg: '_config.yml'  # Default is _config.yml
-          cname: 'thatdontromancememuch.com'                  # Default is to not use a cname
+          token: ${{ secrets.GH_PAGES_TOKEN }}    # It's your Personal Access Token(PAT)
+          branch: 'gh-pages'                      # Default is gh-pages for github provider
+          jekyll_src: './'                        # Default is root directory
+          jekyll_cfg: '_config.yml'               # Default is _config.yml
+          cname: 'thatdontromancememuch.com'      # Default is to not use a cname
