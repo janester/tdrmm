@@ -2,7 +2,7 @@
 featimg: the_unleashing.png
 title: The Unleashing
 tags: [read-this-not-that, pnr]
-category: [review]
+category: [Reviews]
 layout: book-review
 rating:
   characters: ★☆☆☆☆⁠
