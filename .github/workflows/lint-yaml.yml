@@ -13,5 +13,5 @@ jobs:
       - name: yaml-lint
         uses: ibiqlik/action-yamllint@v1
         with:
-          file_or_dir: .github/workflows docs/_data
+          file_or_dir: .github/workflows _config.yml
           config_file: .github/linters/.yamllint
