@@ -1,0 +1,17 @@
+name: Lint yaml
+on: push
+env:
+  CI: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v1
+        with:
+          file_or_dir: .github/workflows docs/_data
+          config_file: .github/linters/.yamllint
