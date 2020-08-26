@@ -38,9 +38,11 @@
     {% else %}
         {% if post.featimg %}
                 {% if post.type == "video" %}
-                    <video autoplay="true" loop="true" muted="true" style="width: 100%;">
-                        <source src="{{site.baseurl}}/media/compressed/{{post.featimg}}">
-                    </video>
+                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
+                        <video autoplay="true" loop="true" muted="true" style="width: 100%;">
+                            <source src="{{site.baseurl}}/media/compressed/{{post.featimg}}">
+                        </video>
+                    </a>
                 {% else %}
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
                         <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ post.featimg }}" alt="{{ post.title }}">
@@ -48,12 +50,14 @@
                 {% endif %}
         {% endif %}
     {% endif %}
-    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">
-        <h1>{{ post.title }}</h1>
-    </a>
-    <p class="post-content" style="font-size:80%;">{{ post.content | strip_html | truncate: 100 }}</p>
-    <p class="actions">
-        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">Read More</a>
-    </p>
+    <div class="article-preview">
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">
+            <h1>{{ post.title }}</h1>
+        </a>
+        <p class="post-content" style="font-size:80%;">{{ post.content | strip_html | truncate: 100 }}</p>
+        <p class="actions">
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}">Read More</a>
+        </p>
+    </div>
 </article>

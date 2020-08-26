@@ -36,3 +36,15 @@
   text-align: center;
   border: 1px solid black;
 }
+
+article {
+    height: 500px;
+}
+
+article .article-preview {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  height: 250px;
+  background-color: white;
+}
