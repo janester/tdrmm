@@ -1,4 +1,4 @@
-<!-- 
+<!--
     this is the complete index for articles, as you can see it on the index page.
     Every Post type get's their own little settings.
 -->
@@ -37,9 +37,15 @@
         {% endif %}
     {% else %}
         {% if post.featimg %}
-                <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
-                    <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ post.featimg }}" alt="{{ post.title }}">
-                </a>
+                {% if post.type == "video" %}
+                    <video autoplay="true" loop="true" muted="true" style="width: 100%;">
+                        <source src="{{site.baseurl}}/media/compressed/{{post.featimg}}">
+                    </video>
+                {% else %}
+                    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/'}}" class="noline">
+                        <img src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ post.featimg }}" alt="{{ post.title }}">
+                    </a>
+                {% endif %}
         {% endif %}
     {% endif %}
     <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>

@@ -30,6 +30,12 @@
                             {% if page.featimg %}
                                 <img class="featimg" src="{{ site.media_folder | prepend: site.baseurl | replace: '//', '/'}}/{{ page.featimg }}" alt="{{ page.featimg }}">
                             {% endif %}
+                        {% elsif page.type == "video" %}
+                            {% if page.featimg %}
+                                <video controls class="featimg">
+                                    <source src="{{site.baseurl}}/media/compressed/{{page.featimg}}">
+                                </video>
+                            {% endif %}
                         {% elsif page.type == "audio" %}
                             {% if page.audio-embed %}
                                 {{ page.audio-embed }}
@@ -87,6 +93,6 @@
             </div>
         </div>
         {% include footer.html %}
-        
+
     </body>
 </html>
