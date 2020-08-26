@@ -37,11 +37,11 @@
   border: 1px solid black;
 }
 
-article {
+.article-tile {
     height: 500px;
 }
 
-article .article-preview {
+.article-tile .article-preview {
   position: absolute;
   bottom: 0;
   z-index: 1;
